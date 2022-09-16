@@ -4,6 +4,7 @@ import Test7 from "./7";
 
 export default function Test1(){
 console.log(1);
+console.log("jiayidiandian")
  return(<>
  <div>1</div>
  <Routes>
