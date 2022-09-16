@@ -4,7 +4,7 @@ import Test5 from "./5";
 import Test6 from "./6";
 
 export default function Test2(props){
-
+console.log("改变分hi2")
     return(<>
     <div>{props.children}</div><Routes>
     <Route path="5/*" element={<Test5/>}></Route>
